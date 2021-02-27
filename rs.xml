@@ -10,7 +10,7 @@
   <project path="device/oneplus/msm8998-common" name="trautamaki/android_device_oneplus_msm8998-common" remote="github" />
   <project path="kernel/oneplus/msm8998" name="trautamaki/android_kernel_oneplus_msm8998" remote="github" />
   <project path="vendor/oneplus" name="trautamaki/muppets_vendor_oneplus" remote="github" />
-  <project path="vendor/aosp" name="robertoglxda/vendor_rs" revision="gl" remote="github" />
+  <project path="vendor/aosp" name="aosp-playground/vendor_aosp" revision="gl" remote="github" />
 
   <project path="device/qcom/sepolicy-legacy-um" name="trautamaki/android_device_qcom_sepolicy" revision="master-legacy-um" remote="github"  />
 
