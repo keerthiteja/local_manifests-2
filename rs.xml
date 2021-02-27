@@ -14,6 +14,10 @@
 
   <project path="device/qcom/sepolicy-legacy-um" name="trautamaki/android_device_qcom_sepolicy" revision="master-legacy-um" remote="github"  />
 
+  <!-- External -->
+  <remove-project name="platform/external/tinycompress" />
+  <project path="external/tinycompress" name="trautamaki/android_external_tinycompress" remote="github" />
+
   <!-- Hardware -->
   <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" revision="lineage-18.0-caf" remote="github" />
 
