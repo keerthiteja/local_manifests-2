@@ -14,10 +14,6 @@
 
   <project path="device/qcom/sepolicy-legacy-um" name="trautamaki/android_device_qcom_sepolicy" revision="master-legacy-um" remote="github"  />
 
-  <!-- External -->
-  <remove-project name="platform/external/tinycompress" />
-  <project path="external/tinycompress" name="aosp-playground/android_external_tinycompress" remote="github" />
-
   <!-- Hardware -->
   <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" revision="lineage-18.0-caf" remote="github" />
 
@@ -43,4 +39,10 @@
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" revision="lineage-18.1" remote="github" />
   <project path="vendor/qcom/opensource/power" name="aosp-playground/android_vendor_qcom_opensource_power" remote="github" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" revision="lineage-18.1" remote="github" />
+
+  <!-- Upstreamable -->
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="aosp-playground/android_bionic" remote="github" />
+  <remove-project name="platform/external/tinycompress" />
+  <project path="external/tinycompress" name="aosp-playground/android_external_tinycompress" remote="github" />
 </manifest>
