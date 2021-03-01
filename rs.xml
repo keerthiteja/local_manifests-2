@@ -46,6 +46,8 @@
   <!-- Upstreamable -->
   <remove-project name="platform/bionic" />
   <project path="bionic" name="aosp-playground/android_bionic" remote="github" />
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="aosp-playground/android_bootable_recovery" remote="github" />
   <remove-project name="platform/external/tinycompress" />
   <project path="external/tinycompress" name="aosp-playground/android_external_tinycompress" remote="github" />
   <remove-project name="platform/hardware/libhardware" />
