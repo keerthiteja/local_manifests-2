@@ -47,4 +47,7 @@
   <project path="external/tinycompress" name="aosp-playground/android_external_tinycompress" remote="github" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="aosp-playground/android_hardware_libhardware" remote="github" />
+  <remove-project name="platform/system/bpf" />
+  <project path="system/bpf" name="aosp-playground/android_system_bpf" remote="github" />
+
 </manifest>
