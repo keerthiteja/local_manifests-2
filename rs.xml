@@ -42,6 +42,7 @@
 
   <!-- Depreceated projects -->
   <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="d768456940780a03b8f5b446d0d3fc572c70098c" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" revision="lineage-18.1" remote="github" />
 
   <!-- Upstreamable -->
   <remove-project name="platform/bionic" />
