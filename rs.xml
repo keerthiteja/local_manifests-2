@@ -10,7 +10,7 @@
   <project path="device/oneplus/msm8998-common" name="trautamaki/android_device_oneplus_msm8998-common" remote="github" />
   <project path="kernel/oneplus/msm8998" name="trautamaki/android_kernel_oneplus_msm8998" remote="github" />
   <project path="vendor/oneplus" name="trautamaki/muppets_vendor_oneplus" remote="github" />
-  <project path="vendor/aosp" name="aosp-playground/vendor_aosp" revision="gl" remote="github" />
+  <project path="vendor/aosp" name="aosp-playground/vendor_aosp" remote="github" />
 
   <project path="device/qcom/sepolicy-legacy-um" name="trautamaki/android_device_qcom_sepolicy" revision="master-legacy-um" remote="github"  />
 
@@ -46,15 +46,16 @@
 
   <!-- Upstreamable -->
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="aosp-playground/android_bionic" remote="github" />
+  <project path="bionic" name="aosp-playground/android_bionic" remote="github" upstream="aosp/platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="aosp-playground/android_bootable_recovery" remote="github" />
+  <project path="bootable/recovery" name="aosp-playground/android_bootable_recovery" remote="github" upstream="aosp/platform/bootable/recovery" />
   <remove-project name="platform/external/tinycompress" />
-  <project path="external/tinycompress" name="aosp-playground/android_external_tinycompress" remote="github" />
+  <project path="external/tinycompress" name="aosp-playground/android_external_tinycompress" remote="github" upstream="aosp/platform/external/tinycompress" />
   <remove-project name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware" name="aosp-playground/android_hardware_libhardware" remote="github" />
+  <project path="hardware/libhardware" name="aosp-playground/android_hardware_libhardware" remote="github" upstream="aosp/platform/hardware/libhardware" />
   <remove-project name="platform/system/bpf" />
-  <project path="system/bpf" name="aosp-playground/android_system_bpf" remote="github" />
+  <project path="system/bpf" name="aosp-playground/android_system_bpf" remote="github" upstream="aosp/platform/system/bpf" />
   <remove-project name="platform/system/netd" />
-  <project path="system/netd" name="aosp-playground/android_system_netd" remote="github" />
+  <project path="system/netd" name="aosp-playground/android_system_netd" remote="github" upstream="aosp/platform/system/netd" />
+
 </manifest>
