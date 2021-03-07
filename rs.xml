@@ -40,6 +40,9 @@
   <project path="vendor/qcom/opensource/power" name="aosp-playground/android_vendor_qcom_opensource_power" remote="github" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" revision="lineage-18.1" remote="github" />
 
+  <!-- Tools -->
+  <project path="tools/extract-utils" name="aosp-playground/android_tools_extract-utils" remote="github" />
+
   <!-- Depreceated projects -->
   <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="d768456940780a03b8f5b446d0d3fc572c70098c" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" revision="lineage-18.1" remote="github" />
